@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Contact form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="" class="contact-form">
+        <div class="form-first-name form-control">
+          <label>First Name *</label>
+          <input
+            type="text"
+            name="\"
+            id=""
+            class="form-input form-input-firstname"
+          />
+          <label class="label-error"></label>
+        </div>
+
+        <div class="form-last-name form-control">
+          <label>Last Name *</label>
+          <input
+            type="text"
+            name="\"
+            id=""
+            class="form-input form-input-lastname"
+          />
+          <label class="label-error"></label>
+        </div>
+
+        <div class="form-email form-control">
+          <label>Email Address *</label>
+          <input
+            type="text"
+            name="\"
+            id=""
+            class="form-input form-input-email"
+          />
+          <label class="label-error"></label>
+        </div>
+
+        <div class="form-query-type">
+          <label class="form-query-label">Query Type *</label>
+
+          <div class="form-query form-query-input">
+            <label class="label-container" for="query--1"
+              ><input
+                type="radio"
+                name="query"
+                id="query--1"
+                value="general enquiry"
+                class="form-input-query"
+              />General Enquiry</label
+            >
+          </div>
+
+          <div class="form-query form-query-input">
+            <label class="label-container" for="query--2"
+              ><input
+                type="radio"
+                name="query"
+                id="query--2"
+                value="support request"
+                class="form-input-query"
+              />Support Request</label
+            >
+          </div>
+          <label class="label-error"></label>
+        </div>
+
+        <div class="form-message form-control">
+          <label for="">Message *</label>
+          <textarea
+            name=""
+            id=""
+            cols="25"
+            rows="5"
+            class="form-input form-input-message"
+          ></textarea>
+          <label class="label-error"></label>
+        </div>
+
+        <div class="form-checkbox">
+          <label class="label-container"
+            ><input type="checkbox" name="" id="" class="form-input-checkbox" />
+            I consent to being contacted by the team *</label
+          >
+          <label class="label-error"></label>
+        </div>
+
+        <button class="form-submit-btn" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-message">
+      <h3><img src="./assets/images/icon-success-check.svg" />Message Sent</h3>
+      <span> Thanks for completing the form, We'll be in touch soon! </span>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
